@@ -863,6 +863,9 @@ section {
     height: 800px;
     width: 100%;
   }
+  .carousel-control-prev{
+    z-index:-1;
+  }
 }
 @media (max-width: 411px) {
   .project-mf {
