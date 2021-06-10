@@ -473,12 +473,9 @@ i {
   /* padding-bottom: 50px; */
   width: 100%;
 }
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
 
 .swiper-slide {
+  padding: 1.5rem;
   text-align: center;
   font-size: 18px;
   /* border-radius: 20px; */
@@ -503,9 +500,10 @@ i {
   height: 100%;
   object-fit: cover;
 }
-.swiper-pagination{
-	color: var(--col1);
+.swiper-pagination-bullet-active {
+  background-color: var(--col1) !important;
 }
+
 .projects .card {
 	background: rgba( 255, 255, 255, 0.40 );
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -525,7 +523,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .projects .card:hover {
   /* background: #309df0; */
   /* color: #fff; */
-  transform: scale(1.05);
+  transform: scale(1.1);
   z-index: 9;
 }
 

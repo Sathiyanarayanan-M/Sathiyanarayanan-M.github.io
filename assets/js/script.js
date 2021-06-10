@@ -88,7 +88,7 @@ var swiper = new Swiper(".mySwiper", {
     },
     1024: {
       slidesPerView: 3,
-      spaceBetween: 30,
+      // spaceBetween: 20,
     },
   },
 });
@@ -98,17 +98,6 @@ var swiper = new Swiper(".mySwiper", {
 
 //Theme change
 
-function theme() {
-  // color = document.getElementById("body").style.backgroundColor
-  // console.log(color)
-  // var checkBox = document.getElementById("myCheck");
-  // var text = document.getElementById("text");
-  // if (checkBox.checked == true){
-  //   text.style.display = "block";
-  // } else {
-  //    text.style.display = "none";
-  // }
-}
 
 $( "#theme" ).click(function() {
   var color = $('body').css( "background-color" );
